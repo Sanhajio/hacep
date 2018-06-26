@@ -17,6 +17,7 @@
 
 package it.redhat.hacep;
 
+import it.redhat.hacep.cache.session.KieSessionSaver;
 import it.redhat.hacep.model.Fact;
 import org.infinispan.Cache;
 import org.infinispan.manager.EmbeddedCacheManager;
@@ -42,4 +43,6 @@ public interface HACEP {
     EmbeddedCacheManager getCacheManager();
 
     Cache<String, Object> getSessionCache();
+
+    KieSessionSaver getKieSessionSaver();
 }

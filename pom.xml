@@ -66,6 +66,7 @@
         <module>hacep-core-model</module>
         <module>hacep-core</module>
         <module>hacep-core-camel</module>
+        <module>hacep-core-kafka</module>
         <module>hacep-examples</module>
     </modules>
 

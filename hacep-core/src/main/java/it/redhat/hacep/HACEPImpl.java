@@ -185,6 +185,10 @@ public class HACEPImpl implements HACEP {
         return router;
     }
 
+    public KieSessionSaver getKieSessionSaver() {
+        return kieSessionSaver;
+    }
+
     public void setRouter(Router router) {
         this.router = router;
     }
@@ -204,4 +208,5 @@ public class HACEPImpl implements HACEP {
     public void setRulesConfiguration(RulesConfiguration rulesConfiguration) {
         this.rulesConfiguration = rulesConfiguration;
     }
+
 }
